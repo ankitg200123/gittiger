@@ -1,0 +1,14 @@
+[Unit]
+Description=GitTiger daily scoring timer
+Requires=gittiger-daily.service
+
+[Timer]
+# 00:45 UTC — gittrend.io recomputes at 00:00; we offset so we are not
+# competing for the same archive files, and 00:30 scoring has all 24 hours.
+OnCalendar=*-*-* 00:45:00
+Persistent=true
+AccuracySec=5min
+Unit=gittiger-daily.service
+
+[Install]
+WantedBy=timers.target

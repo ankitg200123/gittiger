@@ -1,0 +1,2323 @@
+{
+  "Niko1221/Strata": {
+    "topic": "devtools",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "eternity4719/HowToLiveBetter": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "Majorclujerk/Server-Raider": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "empty_readme"
+    ],
+    "needs_review": true
+  },
+  "ifixai-ai/iFixAi": {
+    "topic": "devtools",
+    "tags": [
+      "agent-evaluation",
+      "ai",
+      "ai-alignment",
+      "ai-evaluation",
+      "ai-governance",
+      "ai-safety"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "NVIDIA/OpenShell": {
+    "topic": "ai-agent",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "debpalash/VoiceStudio": {
+    "topic": "ai-voice",
+    "tags": [
+      "ai",
+      "audiobook",
+      "cuda",
+      "dubbing",
+      "elevenlabs-alternative",
+      "huggingface"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "osloxdao/thefounds": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "empty_readme"
+    ],
+    "needs_review": true
+  },
+  "nanaism/yomiyasu": {
+    "topic": "nlp",
+    "tags": [
+      "agent-skills",
+      "ai-writing",
+      "antigravity",
+      "claude-code",
+      "codex",
+      "cursor"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "DietrichGebert/ponytail": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "Panniantong/Agent-Reach": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent-infrastructure",
+      "ai-agent",
+      "ai-search",
+      "automation",
+      "bilibili",
+      "claude-code"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "Louis-CFM/coucou": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "dynamic-island",
+      "macos"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "Taichu-AI/ZDTaichu5.0-9B": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "rehan-remade/universal-modder": {
+    "topic": "mcp",
+    "tags": [
+      "age-of-empires",
+      "claude-code",
+      "claude-code-plugin",
+      "fal",
+      "game-assets",
+      "game-modding"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "RubinLabs26/ISpotify": {
+    "topic": null,
+    "tags": [
+      "linux",
+      "music-player",
+      "pyside6",
+      "python",
+      "windows",
+      "yt-dlp"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "OffGridPete/Fieldwatch": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "hypit-ai/hypit": {
+    "topic": "ai-agent",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "ai-agents",
+      "ai-video",
+      "compiler",
+      "dsl"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "archestra-ai/OpenAPPA": {
+    "topic": null,
+    "tags": [
+      "guardrails",
+      "guardrails-ai",
+      "security"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "pablostanley/yoinks": {
+    "topic": "devtools",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "walkinglabs/learn-harness-engineering": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "ai",
+      "ai-agent",
+      "ai-agents"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "tigerless-labs/autoharness": {
+    "topic": null,
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "llm-agents",
+      "python"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "soralis0912-dev/packages_apps_Settings": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "empty_readme",
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "edgcpp/compiler": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "mvschwarz/openrig": {
+    "topic": "ai-coding-assistant",
+    "tags": [
+      "agent-harness",
+      "agent-orchestration",
+      "agent-skills",
+      "ai-coding",
+      "claude-code",
+      "cli"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "magnitudedev/magnitude": {
+    "topic": "local-llm",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "mattpocock/skills": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "deepseek-ai/deepseek-harness": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-agents",
+      "cordis",
+      "dsh",
+      "dsh-plugin"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "t8y2/dbx": {
+    "topic": "mcp",
+    "tags": [
+      "ai",
+      "cli",
+      "clickhouse",
+      "database",
+      "database-client",
+      "database-management"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "KKKKhazix/AIHOT": {
+    "topic": "mcp",
+    "tags": [
+      "ai",
+      "content-curation",
+      "llm",
+      "mcp",
+      "news-aggregator",
+      "rss"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "stablyai/orca": {
+    "topic": "ai-agent",
+    "tags": [
+      "ade",
+      "agent-ide",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "spinabot/brigade": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent-runtime",
+      "ai",
+      "ai-crew",
+      "autonomous-agents",
+      "brigade",
+      "brigade-agent"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "pbakaus/impeccable": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "PSRben/VisionHOPE": {
+    "topic": "computer-vision",
+    "tags": [
+      "backbone",
+      "backbone-networks",
+      "computer-vision",
+      "image-classification",
+      "vision-framework"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "codeman008/Financial_freedom": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "xiaomingtongxueql/Riot-Account-Checker-Manager": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "harry0703/MoneyPrinterTurbo": {
+    "topic": "ai-video-generation",
+    "tags": [
+      "ai-video-generator",
+      "content-creation",
+      "ffmpeg",
+      "instagram-reels",
+      "llm",
+      "python"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "NandhaKishorM/laya": {
+    "topic": "nlp",
+    "tags": [
+      "calibration",
+      "classification",
+      "decision-model",
+      "huggingface",
+      "jev",
+      "modernbert"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "shihabal3amri/DiPlay": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "hardbeat920/monocode": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "dataelement/dsh-desktop": {
+    "topic": null,
+    "tags": [
+      "agent",
+      "apps",
+      "deepseek",
+      "deepseek-harness",
+      "deepseek-harness-desktop",
+      "desktop"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "obra/superpowers": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai",
+      "brainstorming",
+      "coding",
+      "obra",
+      "sdlc",
+      "skills"
+    ],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "odysseus-dev/odysseus": {
+    "topic": "self-hosted",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "cdyforever/how-to-live-better": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "heygen-com/hyperframes": {
+    "topic": "mcp",
+    "tags": [
+      "ai",
+      "animation",
+      "ffmpeg",
+      "framework",
+      "gsap",
+      "html"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "edenfunf/reelmimic": {
+    "topic": "ai-agent",
+    "tags": [
+      "2d-animation",
+      "ai-agents",
+      "ai-video",
+      "animation",
+      "claude-code",
+      "codex"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "tt-a1i/archify": {
+    "topic": "devtools",
+    "tags": [
+      "agent-skills",
+      "architecture-as-code",
+      "architecture-diagram",
+      "claude-skill",
+      "code-visualization",
+      "codex"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "terrafying/ai-torture-chamber": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "google/mantis": {
+    "topic": "ai-agent",
+    "tags": [
+      "adk",
+      "adk-python",
+      "ai-agents",
+      "antigravity",
+      "antigravity-cli",
+      "application-security"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "Mak5er/AirCard": {
+    "topic": "nlp",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "vinta/awesome-python": {
+    "topic": null,
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "python",
+      "python-frameworks",
+      "python-libraries",
+      "python-tools"
+    ],
+    "confidence": 0.0,
+    "flags": [
+      "off_niche"
+    ],
+    "needs_review": true
+  },
+  "JustVugg/colibri": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "echris6/motion-video-kit": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "vectorize-io/hindsight": {
+    "topic": "ai-agent",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai-memory",
+      "memory"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "sindresorhus/awesome": {
+    "topic": null,
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "lists",
+      "resources",
+      "unicorns"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "byoungd/up": {
+    "topic": null,
+    "tags": [
+      "chinese",
+      "english-learning",
+      "tutorial"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "D4Vinci/Scrapling": {
+    "topic": "mcp",
+    "tags": [
+      "ai",
+      "ai-scraping",
+      "automation",
+      "crawler",
+      "crawling",
+      "crawling-python"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "elliotttate/Wind-Waker-Recomp": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "earendil-works/pi": {
+    "topic": "ai-agent",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "facebookresearch/context-language-models": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "tigerless-labs/agent-memory": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent-memory",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "llm",
+      "local-first"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "NousResearch/hermes-agent": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "Edwardxlai/easyread": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "tigerless-labs/cost-xray": {
+    "topic": "devtools",
+    "tags": [
+      "claude-code",
+      "codex-cli",
+      "cost-tracking",
+      "observability",
+      "prompt-caching",
+      "proxy"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "brayonpi/constellation-gemini": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "LingDong-/shan-shui-inf": {
+    "topic": "nlp",
+    "tags": [
+      "art",
+      "chinese",
+      "landscape",
+      "painting",
+      "perlin-noise",
+      "procedural-generation"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "diegosouzapw/OmniRoute": {
+    "topic": "ai-agent",
+    "tags": [
+      "a2a",
+      "ai-agents",
+      "ai-gateway",
+      "anthropic",
+      "claude",
+      "claude-code"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "tile-ai/tilelang": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "monid-ai/monid": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-agents",
+      "developer-tools"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "Leonxlnx/taste-skill": {
+    "topic": "nlp",
+    "tags": [
+      "agent",
+      "ai",
+      "claude",
+      "claude-code",
+      "codex",
+      "coding"
+    ],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "paperclipai/paperclip": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "farion1231/cc-switch": {
+    "topic": "mcp",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "grok",
+      "grokbuild"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "firecrawl/firecrawl": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-crawler",
+      "ai-scraping",
+      "ai-search",
+      "crawler"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "TNTcraftHIM/Piik": {
+    "topic": "self-hosted",
+    "tags": [
+      "p2p",
+      "screen-sharing",
+      "self-hosted",
+      "webrtc"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "HunxByts/GhostTrack": {
+    "topic": "testing",
+    "tags": [
+      "cybersecurity",
+      "fyp",
+      "hacking",
+      "hacking-tool",
+      "indonesia",
+      "information"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "ESPARGOS/esp-sdr": {
+    "topic": null,
+    "tags": [
+      "esp32",
+      "sdr"
+    ],
+    "confidence": 0.0,
+    "flags": [
+      "off_niche"
+    ],
+    "needs_review": true
+  },
+  "pengchujin/livecanvas": {
+    "topic": null,
+    "tags": [
+      "agent-skills",
+      "codex",
+      "live-photo",
+      "motion-design",
+      "remotion"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "lexmount/moli": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "browser",
+      "browser-automation",
+      "cloud-browser",
+      "kitesurf"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "sdyasmeen2007/python-DSA": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "empty_readme"
+    ],
+    "needs_review": true
+  },
+  "SpiralTickMap/Discord-AIO": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "empty_readme"
+    ],
+    "needs_review": true
+  },
+  "Forget-C/Jellyfish": {
+    "topic": "nlp",
+    "tags": [
+      "ai",
+      "short-drama"
+    ],
+    "confidence": 0.65,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "ITxiao6666/OhMyKeymint": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "whaleyxbt/patchright-enhanced": {
+    "topic": "workflow-automation",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "browser-use/browser-use": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "browser-use",
+      "llm",
+      "playwright"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "youcci/playport": {
+    "topic": null,
+    "tags": [
+      "airplay",
+      "browser",
+      "carplay",
+      "head-unit",
+      "kotlin",
+      "ktor"
+    ],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "composio-community/open-dot": {
+    "topic": "ai-agent",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "alibaba/open-code-review": {
+    "topic": "code-review",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "code-review",
+      "code-review-assistant",
+      "harness",
+      "repository-level-context"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "sapientinc/PRAXIST": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "kangkungmozzarella/kantor-ai": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "Vincentwei1021/video-shotcraft": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-video",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "ninjahawk/livenerf": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "Gild-org/gild-contract": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "Friedrich-M/UniMate": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "jmedina21/deck-as-controller": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "wy51ai/floorplan-3d": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "852wa/JIZURA": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "dnshe/DNSHE-FreeDomains": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "vorssaint/vorssaint-utils": {
+    "topic": null,
+    "tags": [
+      "alt-tab",
+      "app-uninstaller",
+      "appkit",
+      "finder",
+      "free",
+      "keep-awake"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "public-apis/public-apis": {
+    "topic": null,
+    "tags": [
+      "api",
+      "apis",
+      "dataset",
+      "development",
+      "free",
+      "list"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "cloudflare/security-audit-skill": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "dmtrKovalenko/fframes": {
+    "topic": "ai-agent",
+    "tags": [
+      "agentic-ai",
+      "motion-graphics",
+      "remotion",
+      "video"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "tobi/disktree": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "ZJU-REAL/Easel": {
+    "topic": "mcp",
+    "tags": [
+      "agent",
+      "agent-skill",
+      "content-automation",
+      "content-creation",
+      "content-generation",
+      "mcp"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "boykopovar/AnyPS5": {
+    "topic": "game-development",
+    "tags": [
+      "anyps5",
+      "dynamic-library",
+      "game-porting",
+      "ps5",
+      "ps5-tools",
+      "spir-v"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "CopilotKit/OpenDots": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "ayghri/i-have-adhd": {
+    "topic": "devtools",
+    "tags": [
+      "adhd",
+      "claude-",
+      "claude-code-plugin",
+      "claude-skills",
+      "developer-tools",
+      "productivity"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "vincentsch/explainroo": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-agents",
+      "animation",
+      "canvas",
+      "claude-code",
+      "codex",
+      "explainer-video"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "yetone/magpie": {
+    "topic": "devtools",
+    "tags": [
+      "claude-code",
+      "codex",
+      "deepseek",
+      "gemini-cli",
+      "llm",
+      "macos"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "ruvnet/RuView": {
+    "topic": "computer-vision",
+    "tags": [
+      "awesome",
+      "claude",
+      "densepose",
+      "esp32",
+      "firmware",
+      "home-assistant"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "Bingeljell/image-to-3dlab": {
+    "topic": "nlp",
+    "tags": [
+      "3d-generation",
+      "3d-models",
+      "apple-silicon",
+      "blender",
+      "cuda",
+      "game-assets"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "anthropics/claude-code": {
+    "topic": "ai-agent",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "anthropics/skills": {
+    "topic": null,
+    "tags": [
+      "agent-skills"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "batikanor/gralobe": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "anomalyco/opencode": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "chasmlol/2010-rust-rewrite-mashup": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "cursor/plugins": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "awesome-selfhosted/awesome-selfhosted": {
+    "topic": "self-hosted",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "cloud",
+      "free-software",
+      "hosting",
+      "privacy"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "every-app/open-seo": {
+    "topic": "mcp",
+    "tags": [
+      "backlink-analysis",
+      "google-search-console-mcp",
+      "keyword-research",
+      "mcp",
+      "seo",
+      "seo-agent"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "mksglu/context-mode": {
+    "topic": "ai-coding-assistant",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-plugins",
+      "claude-code-skill"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "alirezarezvani/claude-skills": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent-plugins",
+      "agent-skills",
+      "agentic-ai",
+      "ai-coding-agent",
+      "anthropic-claude",
+      "claude-ai"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "rcawston/Malgel": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "veldris-ltd/midgard-app": {
+    "topic": "ai-agent",
+    "tags": [
+      "local-ai",
+      "local-ai-agents",
+      "open-source",
+      "post-quantum-encryption"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "wobqqq/oc-fortify-ip-blocker-plugin": {
+    "topic": null,
+    "tags": [
+      "firewall",
+      "fortify",
+      "ip-blocker",
+      "october-plugin",
+      "octobercms",
+      "security"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "0xErwin1/dbflux": {
+    "topic": "devtools",
+    "tags": [
+      "aws",
+      "cross-platform",
+      "database",
+      "database-client",
+      "db",
+      "developer-tools"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "f/prompts.chat": {
+    "topic": null,
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "awesome-list",
+      "chatgpt",
+      "chatgpt-prompts",
+      "claude"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "0sec-labs/0": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-security",
+      "application-security",
+      "autonomous-agents",
+      "binary-analysis",
+      "cve",
+      "cybersecurity"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "AiramVieira/offensive-combat-reload": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "Ch3nOff/dual-loop-controller": {
+    "topic": null,
+    "tags": [
+      "deep-learning",
+      "hardware-aware",
+      "latent-reasoning",
+      "llm-architecture",
+      "mixture-of-depths",
+      "open-source"
+    ],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "PyModel/jev-judge-mcp": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent-tools",
+      "ai-agents",
+      "ai-guardrails",
+      "classification",
+      "claude-code",
+      "fact-checking"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "SAOG0721/Magpie": {
+    "topic": null,
+    "tags": [
+      "dlss",
+      "dlss5",
+      "dlssfg",
+      "dlssnr",
+      "magpie",
+      "rtxvideo"
+    ],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "TecharoHQ/anubis": {
+    "topic": "browser-automation",
+    "tags": [
+      "defense",
+      "security"
+    ],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "block/buzz": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "carnot-tech/consulting-pptx-skill": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "coulsonevli/DaVinciResolve-likeColorGradePanel4UE": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "grqz/grqz": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "headroomlabs-ai/headroom": {
+    "topic": "mcp",
+    "tags": [
+      "agent",
+      "ai",
+      "anthropic",
+      "claude-code",
+      "compression",
+      "context-engineering"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "huggingface/agents-course": {
+    "topic": "ai-agent",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "course",
+      "huggingface",
+      "langchain",
+      "llamaindex"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "immich-app/immich": {
+    "topic": "self-hosted",
+    "tags": [
+      "backup-tool",
+      "flutter",
+      "google-photos",
+      "google-photos-alternative",
+      "javascript",
+      "mobile-app"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "jbiaojerry/ebook-treasure-chest": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "k1tbyte/Wand-Enhancer": {
+    "topic": null,
+    "tags": [
+      "csharp",
+      "wand",
+      "wand-enhancer",
+      "wand-pro",
+      "wemod",
+      "wpf"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "longbridge/gpui-kit": {
+    "topic": "ui-components",
+    "tags": [
+      "desktop-application",
+      "gpui",
+      "rust",
+      "uikit"
+    ],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "pingdotgg/t3code": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "empty_readme",
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "swiftlang/swift": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "termux/termux-app": {
+    "topic": "devtools",
+    "tags": [
+      "android",
+      "hacktoberfest",
+      "linux",
+      "terminal",
+      "termux"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "wangmingxuan666/Tiersense": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "CopilotKit/openmuse": {
+    "topic": "ai-coding-assistant",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "Droid-Deck/DroidDeck": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "EchoMusicApp/Echo-Music": {
+    "topic": "devtools",
+    "tags": [
+      "youtube-music",
+      "youtubemusic",
+      "youtubemusicalternative",
+      "ytmusic"
+    ],
+    "confidence": 0.65,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "VoltAgent/awesome-agent-skills": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "awesome",
+      "awesome-list",
+      "claude-code",
+      "claude-code-skills"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "bilibili/Index-Translate": {
+    "topic": null,
+    "tags": [
+      "llm",
+      "machine-translation"
+    ],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "cathrynlavery/diagram-design": {
+    "topic": "ai-coding-assistant",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "data-visualization",
+      "diagrams",
+      "drawio"
+    ],
+    "confidence": 0.65,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "coreyhaines31/marketingskills": {
+    "topic": "ai-agent",
+    "tags": [
+      "claude",
+      "codex",
+      "marketing"
+    ],
+    "confidence": 0.65,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "hmjz100/LinkSwift": {
+    "topic": null,
+    "tags": [
+      "123pan",
+      "aliyun-drive",
+      "aliyunpan",
+      "aria2",
+      "baidu",
+      "baidu-netdisk"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "jaredpalmer/kev": {
+    "topic": null,
+    "tags": [
+      "decision-model",
+      "jev",
+      "qwen3"
+    ],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "kevinzhow/Rungic": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "latticeverse/LatticeVerse": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "luxine/CalcKernel": {
+    "topic": "bundler",
+    "tags": [
+      "compiler",
+      "programming-language",
+      "rust",
+      "webassembly"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "mizchi/explainer": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "mobile-next/mobile-mcp": {
+    "topic": "mcp",
+    "tags": [
+      "agent",
+      "android",
+      "emulator",
+      "ios",
+      "mcp",
+      "mobile"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "modelcontextprotocol/servers": {
+    "topic": "mcp",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "virgiliojr94/book-to-skill": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "book-to-skill",
+      "context-engineering",
+      "document-processing",
+      "edtech"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "icubaby/SideRail": {
+    "topic": "devtools",
+    "tags": [
+      "proxy",
+      "railway",
+      "trojan",
+      "vless",
+      "vmess",
+      "vpn"
+    ],
+    "confidence": 0.65,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "CharlesFeng0314/JEV_sees": {
+    "topic": "computer-vision",
+    "tags": [
+      "computer-vision",
+      "jev",
+      "multimodal-ai",
+      "object-detection",
+      "object-tracking",
+      "python"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "KytyPS5/KytyPS5": {
+    "topic": "game-development",
+    "tags": [
+      "cpp",
+      "emulation",
+      "emulator",
+      "gpu",
+      "linux",
+      "macos"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "Neet-Nestor/Telegram-Media-Downloader": {
+    "topic": null,
+    "tags": [
+      "greasyfork",
+      "greasymonkey",
+      "greasymonkey-userscript",
+      "javascript",
+      "telegram",
+      "userscript"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "OpenWhispr/openwhispr": {
+    "topic": "text-to-speech",
+    "tags": [
+      "ai",
+      "anthropic",
+      "cross-platform",
+      "gemini",
+      "groq",
+      "linux"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "calesthio/OpenMontage": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "claude",
+      "copilot",
+      "cursor"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "chenkanglin198904/Personal_External_Brain": {
+    "topic": "rag",
+    "tags": [
+      "graph-database",
+      "knowledge-graph",
+      "knowledge-graphs",
+      "knowledge-management",
+      "local-first",
+      "note-taking"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "hotline1337/umium": {
+    "topic": "code-review",
+    "tags": [
+      "anti-debugging",
+      "anti-reversing",
+      "compile-time",
+      "cpp",
+      "game-hacking",
+      "malware"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "juewuy/ShellCrash": {
+    "topic": "devtools",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [],
+    "needs_review": false
+  },
+  "kestra-io/kestra": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "control-plane",
+      "data-engineering",
+      "data-orchestration",
+      "data-orchestrator"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "ledgesh/ledge": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "shihabal3amri/DiAuto": {
+    "topic": null,
+    "tags": [
+      "android",
+      "android-auto",
+      "byd",
+      "dilink",
+      "kotlin"
+    ],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "shanraisshan/claude-code-best-practice": {
+    "topic": "ai-agent",
+    "tags": [
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-engineering",
+      "agentic-workflow",
+      "ai",
+      "ai-agents"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "CarterPerez-dev/Cybersecurity-Projects": {
+    "topic": "testing",
+    "tags": [
+      "ai",
+      "certification",
+      "cloud-engineering",
+      "cyber",
+      "cybersecurity",
+      "cybersecurity-analyst"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "Imbad0202/academic-research-skills": {
+    "topic": "workflow-automation",
+    "tags": [
+      "academic-pipeline",
+      "academic-writing",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "literature-review"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "dgtlmoon/changedetection.io": {
+    "topic": "browser-automation",
+    "tags": [
+      "back-in-stock",
+      "change-alert",
+      "change-detection",
+      "change-monitoring",
+      "monitoring",
+      "notifications"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "jamwithai/production-agentic-rag-course": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "javycoder/fnos_music_ext": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "n8n-io/n8n": {
+    "topic": "mcp",
+    "tags": [
+      "ai",
+      "apis",
+      "automation",
+      "cli",
+      "data-flow",
+      "development"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "supabase/supabase": {
+    "topic": "database",
+    "tags": [
+      "ai",
+      "alternative",
+      "auth",
+      "database",
+      "deno",
+      "embeddings"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "trimstray/the-book-of-secret-knowledge": {
+    "topic": "nlp",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "bsd",
+      "cheatsheets",
+      "devops",
+      "guidelines"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "v0id4real/Void-Tools": {
+    "topic": "nlp",
+    "tags": [
+      "discord-joiner",
+      "discord-multi-tool",
+      "discord-multitool",
+      "discord-multitools",
+      "discord-nuke-bot",
+      "discord-nuker"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "fangmumu111-bot/chatgpt-plus-pro-codex-cn-guide": {
+    "topic": null,
+    "tags": [
+      "ai-tools",
+      "chatgpt",
+      "chatgpt-daichong",
+      "chatgpt-plus",
+      "chatgpt-pro",
+      "chatgpt-recharge"
+    ],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "FujiwaraChoki/MoneyPrinterV2": {
+    "topic": "workflow-automation",
+    "tags": [
+      "automation",
+      "cli",
+      "json",
+      "money",
+      "outreach",
+      "python"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "Kuddev/pebrel": {
+    "topic": "devtools",
+    "tags": [
+      "ai-cli",
+      "ai-terminal",
+      "claude-code",
+      "codex",
+      "conpty",
+      "developer-tools"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "MetaCubeX/mihomo": {
+    "topic": null,
+    "tags": [
+      "honkai-star-rail",
+      "mihomo",
+      "python",
+      "star-rail-api"
+    ],
+    "confidence": 0.0,
+    "flags": [],
+    "needs_review": true
+  },
+  "TestSprite/testsprite-cli": {
+    "topic": "workflow-automation",
+    "tags": [
+      "ai",
+      "cli",
+      "e2e-testing",
+      "playwright",
+      "qa",
+      "test-automation"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "howseen-ai/claude-motion-design": {
+    "topic": "browser-automation",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "ffmpeg",
+      "motion-design",
+      "playwright"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "practical-tutorials/project-based-learning": {
+    "topic": "nlp",
+    "tags": [
+      "beginner-project",
+      "cpp",
+      "golang",
+      "javascript",
+      "project",
+      "python"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "togg53192-cmd/jailbreaks": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "urosidoki/htn_planner": {
+    "topic": "nlp",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "webadderallorg/Recordly": {
+    "topic": null,
+    "tags": [
+      "electron",
+      "free",
+      "linux",
+      "macos",
+      "open-source",
+      "screen-recorder"
+    ],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "thetrufflegouda/SWArmada": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "20000419/fauxnix": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-agents",
+      "bash",
+      "claude-code",
+      "cli",
+      "codex",
+      "coreutils"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "HKUDS/DeepTutor": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-agents",
+      "ai-tutor",
+      "clawbot",
+      "cli-tool",
+      "deepresearch",
+      "interactive-learning"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "MisakaZentai/world-execute-me-dsh-pv": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  },
+  "feder-cr/dots": {
+    "topic": "ai-agent",
+    "tags": [
+      "ai-agent",
+      "ai-agents",
+      "ai-browser",
+      "anti-detect-browser",
+      "browser-agent",
+      "browser-automation"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "mogons/noraz-agent": {
+    "topic": "ai-agent",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "defillama",
+      "dex",
+      "dune",
+      "gmgn"
+    ],
+    "confidence": 0.95,
+    "flags": [
+      "off_niche",
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "ruvnet/ruflo": {
+    "topic": "ai-agent",
+    "tags": [
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "agents",
+      "ai-agents",
+      "ai-assistant"
+    ],
+    "confidence": 0.95,
+    "flags": [],
+    "needs_review": false
+  },
+  "slop-place/zulu": {
+    "topic": "devtools",
+    "tags": [],
+    "confidence": 0.65,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": false
+  },
+  "tgeorgiadis/quiver-launcher": {
+    "topic": null,
+    "tags": [],
+    "confidence": 0.0,
+    "flags": [
+      "starfarming"
+    ],
+    "needs_review": true
+  }
+}

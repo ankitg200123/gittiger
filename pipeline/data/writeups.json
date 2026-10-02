@@ -1,0 +1,467 @@
+{
+  "NVIDIA/OpenShell": {
+    "body_markdown": "## What it is\nNVIDIA/OpenShell is a Rust project for running autonomous AI agents. The project describes OpenShell as a safe, private runtime for those agents.\n\n## Capabilities described\nThe README preview highlights new isolation primitives, an expanded extension surface, and new APIs in the 0.1.x release series. It describes formal verification for policy changes: before approval, OpenShell flags risky access a change would grant—such as reaching a new host with credentials or calling a new API method—so the change can wait for human review. Its sandbox scope includes images, runtimes, GPUs, and lifecycle. Its policies cover filesystem, network, and process rules, with an advisor and prover for review.\n\n## Getting started\nThe supplied README preview mentions a 0.1.0 upgrade guide but gives no installation or setup steps. For setup guidance, read the [project README](https://github.com/NVIDIA/OpenShell).",
+    "faq_json": [
+      {
+        "q": "What does OpenShell do?",
+        "a": "It is presented as a runtime for autonomous AI agents, with sandboxing and policies for filesystem, network, and process rules."
+      },
+      {
+        "q": "What does formal verification check?",
+        "a": "Before a policy change is approved, it flags risky new access the change would grant, including reaching a new host with credentials or calling a new API method."
+      },
+      {
+        "q": "Where can I find setup instructions?",
+        "a": "No setup steps were supplied. Consult the project README: https://github.com/NVIDIA/OpenShell."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:19:21.773431+00:00"
+  },
+  "debpalash/VoiceStudio": {
+    "body_markdown": "## What the project is\nVoiceStudio is a Python repository described as an open-source, fully local alternative to ElevenLabs. Its description presents it as a tool for voice-related workflows; these capabilities and language coverage are claims from the repository description, not independently verified details in the supplied information.\n\n## Capabilities described\nThe description lists voice cloning, voice design, video dubbing, dictation, transcription, and audiobook creation, and claims support for 646 languages. The README preview repeats these capabilities and the language count, but provides no further technical detail about how they work. The supplied metadata lists AGPL-3.0 as the license.\n\n## Getting started\nNo installation instructions, prerequisites, or setup steps were supplied. Consult the repository README for current getting-started guidance: https://github.com/debpalash/VoiceStudio.",
+    "faq_json": [
+      {
+        "q": "What does VoiceStudio claim to do?",
+        "a": "Its description lists voice cloning, voice design, video dubbing, dictation, transcription, and audiobook creation, with claimed support for 646 languages."
+      },
+      {
+        "q": "How do I install or run it?",
+        "a": "Setup instructions were not included in the supplied information. Consult the repository README for guidance; no commands can be confirmed here."
+      },
+      {
+        "q": "What language and license are listed?",
+        "a": "The metadata lists Python as the language and AGPL-3.0 as the license."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:17:49.689584+00:00"
+  },
+  "nanaism/yomiyasu": {
+    "body_markdown": "## What it is\n\n`nanaism/yomiyasu` is described as an Agent Skill for refining AI-generated Japanese into more natural Japanese. That is the repository description’s stated purpose; the supplied excerpts do not provide an independent evaluation of its results.\n\n## Capabilities described\n\nThe README preview points to an explanatory article about the skill and lists topics including why simply replacing prohibited words may be insufficient, ambiguity in subject–predicate relationships, non-human subjects, overemphasis on format at the expense of information density, and making actors and actions clearer. These are topics in the preview, not confirmation that each is a separate feature. The repository is categorized under NLP and tagged for Japanese writing and several agent-related tools, but the excerpts do not specify compatibility or integrations.\n\n## Getting started\n\nNo installation or usage steps are included in the supplied excerpts. Consult the repository README for setup guidance. The metadata identifies Python as the language and lists the MIT license; no further implementation or setup details were supplied.",
+    "faq_json": [
+      {
+        "q": "What is yomiyasu for?",
+        "a": "The repository description presents it as an Agent Skill for refining AI-generated Japanese into more natural Japanese."
+      },
+      {
+        "q": "What writing issues does the README preview discuss?",
+        "a": "It lists prohibited-word replacement, ambiguous subject–predicate relationships and non-human subjects, format emphasis and information density, and clarity about actors and actions. The preview does not establish these as separate implemented features."
+      },
+      {
+        "q": "How do I install or use it?",
+        "a": "Setup and usage steps were not included in the supplied excerpts. Check the repository README for instructions."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:17:55.559486+00:00"
+  },
+  "DietrichGebert/ponytail": {
+    "body_markdown": "## What it is\nPonytail is an AI-agent project from `DietrichGebert/ponytail`, listed under agent skills and AI agents. The repository description pitches it as a way to make an AI agent “think like the laziest senior dev in the room,” arguing that the best code is code you never had to write. Its focus is restraint: steering an agent away from unnecessary implementation and toward simpler choices.\n\n## Capabilities described\nThe README preview lays out four decision rules: skip work that does not need to exist (YAGNI); reuse code already in the project rather than rewriting it; use the standard library when it suffices; and prefer native platform features. These are the project’s explicitly described principles, rather than a broader list of agent features.\n\n## Getting started\nThe supplied material does not include setup steps. Read the project’s [README](https://github.com/DietrichGebert/ponytail) for guidance on using Ponytail. The metadata lists JavaScript as its language.",
+    "faq_json": [
+      {
+        "q": "What is Ponytail?",
+        "a": "An AI-agent project focused on avoiding unnecessary code and favoring simpler implementation choices."
+      },
+      {
+        "q": "What principles does it describe?",
+        "a": "Skip unnecessary work, reuse existing code, use the standard library when it suffices, and prefer native platform features."
+      },
+      {
+        "q": "How do I get started?",
+        "a": "Setup steps were not supplied. Consult the project README: https://github.com/DietrichGebert/ponytail."
+      },
+      {
+        "q": "What language is it listed as using?",
+        "a": "The supplied metadata lists JavaScript."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:19:54.973340+00:00"
+  },
+  "Panniantong/Agent-Reach": {
+    "body_markdown": "## What it is\nPanniantong/Agent-Reach is a Python project presented as a CLI for giving AI agents access to online content. It is aimed at developers building agents that need to find or read material across social, video, and code platforms.\n\n## Described capabilities\nThe project description says it can read and search Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu through one CLI, with “zero API fees.” That is the project’s stated pitch. The supplied README preview describes access problems—including paid Twitter API access, Reddit blocks, and unavailable video subtitles—but does not detail implementation or verify platform behavior. The metadata identifies Python and tags the project for agent infrastructure, AI search, automation, and CLI use.\n\n## Getting started\nNo installation or setup steps are included in the supplied information. See the [README on GitHub](https://github.com/Panniantong/Agent-Reach) for instructions. Configuration and supported commands are not described in the available details.",
+    "faq_json": [
+      {
+        "q": "Which platforms does the project describe supporting?",
+        "a": "The project description names Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu for reading and searching."
+      },
+      {
+        "q": "What programming language is listed?",
+        "a": "The metadata lists Python."
+      },
+      {
+        "q": "How do I install or configure it?",
+        "a": "Installation and configuration steps were not supplied. Check the project README on GitHub."
+      },
+      {
+        "q": "Does it charge API fees?",
+        "a": "The project description advertises “zero API fees”; the supplied information does not provide further details about how that works."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:20:03.829906+00:00"
+  },
+  "Louis-CFM/coucou": {
+    "body_markdown": "## What it is\nCoucou is a desktop companion for keeping an eye on coding-agent sessions. The project description says it lives in the macOS notch or at the top of the screen on Windows, giving developers a compact place to follow session activity.\n\n## Capabilities\nThe README preview lists live session views for Claude Code, Gemini CLI, Antigravity, and other agents, showing what a session reads, edits, and runs step by step. It also describes Claude Code permission requests appearing with Allow and Deny controls. For custom agents, it says a hook payload tagged `coucouagent` can give an agent its own pill. The preview mentions opening the relevant terminal, but does not include further details about that action.\n\n## Getting started\nSetup steps were not included in the supplied material. Check the [Coucou README](https://github.com/Louis-CFM/coucou) for instructions.",
+    "faq_json": [
+      {
+        "q": "Which platforms does Coucou target?",
+        "a": "The project description names macOS, where it appears in the notch, and Windows, where it appears at the top of the screen."
+      },
+      {
+        "q": "Which coding agents are listed?",
+        "a": "The README preview names Claude Code, Gemini CLI, Antigravity, and other agents."
+      },
+      {
+        "q": "How do I set up Coucou?",
+        "a": "Setup steps were not supplied. Check the README for instructions."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:20:12.162690+00:00"
+  },
+  "rehan-remade/universal-modder": {
+    "body_markdown": "## What it is\n\n`rehan-remade/universal-modder` is a set of skills, tools, and a shared knowledge base for game modding with AI coding agents. The project description says it lets Claude Code mod almost any PC game you own, making it relevant to developers exploring game assets, reverse engineering, and mod workflows.\n\n## Capabilities described\n\nThe project description lists game reconnaissance, reverse engineering, fal-generated art, 3D and audio, in-game testing, and showcase videos. The README preview also mentions searching the knowledge base, choosing a route after reconnaissance, preparing a safe lab with saves backed up, reading the game’s code, and building one working slice. These are the project’s stated capabilities, not a guarantee for every game.\n\n## Getting started\n\nThe available README preview includes “Try it” but provides no setup steps or commands. Read the project README for current instructions before getting started.",
+    "faq_json": [
+      {
+        "q": "Which AI coding agents does it target?",
+        "a": "The README preview describes support for any AI coding agent; the project description specifically names Claude Code."
+      },
+      {
+        "q": "What game-modding work does it describe?",
+        "a": "The listed work includes reconnaissance, reverse engineering, fal-generated art, 3D and audio, in-game testing, and showcase videos."
+      },
+      {
+        "q": "How do I install or set it up?",
+        "a": "Setup steps were not supplied in the available information. Consult the project README for instructions."
+      },
+      {
+        "q": "What language is it written in?",
+        "a": "The supplied metadata lists Python."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:20:22.605287+00:00"
+  },
+  "hypit-ai/hypit": {
+    "body_markdown": "## What it is\n\nHypit is an AI-agent video project for recreating and adapting videos. It is written in TypeScript. The project description pitches it as a way to clone viral videos and produce many variants from one workflow.\n\n## Capabilities\n\nThe README summary describes a workflow that takes a video and handles footage, captions, B-roll, and effects—not just a script breakdown. It says you can reuse a composition and existing material while generating the parts that change, and swap the host without changing captions. The project description also lists changing faces, words, and B-roll, and shipping 100 variants in one command. The summary mentions pluggable components that can be used, forked, or replaced with custom ones.\n\n## Getting started\n\nSetup instructions were not included in the supplied information. Check the [Hypit README](https://github.com/hypit-ai/hypit) for current guidance.",
+    "faq_json": [
+      {
+        "q": "What language is Hypit written in?",
+        "a": "The supplied metadata lists TypeScript."
+      },
+      {
+        "q": "Can Hypit create multiple video variants?",
+        "a": "Yes. The project description says it can ship 100 variants in one command; the README summary describes reusing a composition and generating the parts that change."
+      },
+      {
+        "q": "Where can I find setup instructions?",
+        "a": "Setup steps were not supplied here. Check the Hypit README for guidance."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:20:28.433093+00:00"
+  },
+  "pablostanley/yoinks": {
+    "body_markdown": "## What it is\n\n**yoinks** is a TypeScript tool for grabbing videos from your terminal. The project describes it as a way to “yoink any video” without “shady ads.” Its README preview says it is powered by **yt-dlp**, giving developers a terminal-focused way to fetch video.\n\n## Capabilities described\n\nThe preview notes that **ffmpeg** is found on first run and is needed for merging high-resolution streams and extracting MP3s. It also lists `--best` and `--mp3` flags to skip the picker, plus `-o` to choose an output folder, as unchecked items; the preview does not establish these as available features.\n\n## Getting started\n\nThe supplied preview does not include installation or run instructions. Check the [yoinks README](https://github.com/pablostanley/yoinks) for setup steps.",
+    "faq_json": [
+      {
+        "q": "What does yoinks do?",
+        "a": "It is a terminal tool for grabbing videos."
+      },
+      {
+        "q": "What powers it, and what is ffmpeg for?",
+        "a": "The README preview says yoinks is powered by yt-dlp. It says ffmpeg is needed for merging high-resolution streams and extracting MP3s."
+      },
+      {
+        "q": "How do I install or run it?",
+        "a": "Setup steps were not supplied here. Check the repository README for instructions."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:20:37.575940+00:00"
+  },
+  "mvschwarz/openrig": {
+    "body_markdown": "## What it is\nOpenRig is a TypeScript project for developers interested in coordinating AI coding agents. The project description says developers can build a network of agents from Claude Code, Codex, and Pi, organized as persistent teams with roles, shared context, and owned work.\n\n## Capabilities described\nThe stated focus is connecting those named agent tools and structuring their work through team roles, shared context, and ownership. The available details do not explain how these pieces operate or what commands are available, so the description is a high-level guide rather than implementation documentation.\n\n## Getting started\nThe supplied README preview contains no setup instructions. Read the project README at [github.com/mvschwarz/openrig](https://github.com/mvschwarz/openrig) for getting-started guidance; no installation command was supplied.",
+    "faq_json": [
+      {
+        "q": "Which agent tools does OpenRig name?",
+        "a": "The project description names Claude Code, Codex, and Pi."
+      },
+      {
+        "q": "What language is OpenRig written in?",
+        "a": "The supplied metadata lists TypeScript."
+      },
+      {
+        "q": "How do I get started?",
+        "a": "Setup steps were not supplied. Consult the README at https://github.com/mvschwarz/openrig."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:20:47.755922+00:00"
+  },
+  "magnitudedev/magnitude": {
+    "body_markdown": "## What it is\n\n[magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) is an open-source inference engine for running models used by agents. The project describes it as hardware-aware: it compiles and tunes kernels on the device, and says open models can run up to 2× faster than llama.cpp. Its README summary reports decode improvements of 92% on Metal and 19% on CUDA.\n\n## Capabilities\n\nThe project lists support for Apple Silicon, NVIDIA and AMD hardware, as well as CPUs. Its README preview describes downloading the app, choosing a recommended model in Discover, and connecting an agent through Connections. The project is written in Rust.\n\n## Getting started\n\nThe README preview says Magnitude is available for macOS, Windows and Linux. It directs users to download and install the app, open it, select a model in Discover, then connect an agent in Connections. For complete setup details, consult the [repository README](https://github.com/magnitudedev/magnitude).",
+    "faq_json": [
+      {
+        "q": "Which platforms are listed?",
+        "a": "The README preview lists macOS, Windows and Linux."
+      },
+      {
+        "q": "What hardware does Magnitude describe supporting?",
+        "a": "The project description lists Apple Silicon, NVIDIA, AMD and CPU hardware."
+      },
+      {
+        "q": "How does the README preview describe getting started?",
+        "a": "Download and install the app, open it, choose a recommended model in Discover, then connect an agent in Connections. See the repository README for full setup details."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:20:55.277221+00:00"
+  },
+  "deepseek-ai/deepseek-harness": {
+    "body_markdown": "## What it is\n\nDeepSeek Harness (`dsh`) is an open-source agent harness developed by DeepSeek AI and written in TypeScript. The project describes itself as “Everything is a Plugin.” The supplied project details do not explain the plugin architecture or how developers create plugins, so the tagline is the clearest indication of its approach.\n\n## Capabilities described\n\nProject information points users to GitHub Discussions for feedback and bug reports, and to a Discord community. It also recommends adding the `dsh-plugin` topic to a plugin repository to improve discoverability. These details describe community and plugin-discovery channels; they do not provide a list of harness features.\n\n## Getting started\n\nNo installation or setup steps were supplied. Consult the [DeepSeek Harness README](https://github.com/deepseek-ai/deepseek-harness) for getting-started instructions and further project details.",
+    "faq_json": [
+      {
+        "q": "What is DeepSeek Harness?",
+        "a": "It is an open-source agent harness developed by DeepSeek AI, written in TypeScript."
+      },
+      {
+        "q": "Where can I report feedback or bugs?",
+        "a": "The supplied project information directs users to GitHub Discussions."
+      },
+      {
+        "q": "How do I get started?",
+        "a": "Setup steps were not supplied. Consult the repository README for instructions."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:21:04.223426+00:00"
+  },
+  "KKKKhazix/AIHOT": {
+    "body_markdown": "## What it is\nAIHOT is a TypeScript project for building an AI-powered industry trends site. The project description says it finds hot topics and writes daily reports, and that you can adapt it by changing the sources and selection criteria.\n\n## Capabilities\nThe README summary describes a daily workflow: gather material from multiple sources, use a large language model to filter and score it twice, then produce Chinese headlines and summaries. It groups reports about the same subject into one event, ranks topics by how many sources are discussing them, and produces a morning report. The supplied code is described as a snapshot of the live AIHOT site, not a polished general-purpose framework. It includes 18 public overseas AI news sources as examples; the AIHOT source list and operational data are not included.\n\n## Getting started\nThe supplied information does not include setup steps. Read the project README for instructions, and replace the example sources and selection criteria with ones suited to your industry. The project asks users not to use the AIHOT name or logo.",
+    "faq_json": [
+      {
+        "q": "What does AIHOT do?",
+        "a": "It gathers material from sources, uses an LLM to filter and score it, groups coverage of the same subject into events, and produces Chinese headlines, summaries, and a daily report."
+      },
+      {
+        "q": "What sources are included?",
+        "a": "The project includes 18 public overseas AI news sources as examples. The AIHOT source list and operational data are not included."
+      },
+      {
+        "q": "How do I set it up?",
+        "a": "Setup steps were not supplied in the available information. Check the project README for instructions."
+      },
+      {
+        "q": "Can I use the AIHOT name and logo?",
+        "a": "The README summary asks users not to use the AIHOT name or logo."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:21:13.311744+00:00"
+  },
+  "stablyai/orca": {
+    "body_markdown": "## What it is\n\nOrca is an agent development environment for coordinating parallel coding agents. The project describes it as a way to run coding agents with your own subscriptions, available on desktop, mobile, and remote runtime. Its TypeScript codebase is listed under `stablyai/orca`.\n\n## Capabilities\n\nThe README preview highlights a mobile companion with quick search across worktrees, files, agents, commands, and repository context. It also lists Claude and Codex usage and rate-limit tracking, with account switching without re-logging in; previews for Markdown, images, PDFs, and repository docs; and Computer Use, which lets agents interact with desktop apps and visible UI. Notifications and unread state are included among the listed features.\n\n## Getting started\n\nSetup steps are not included in the available project summary. Consult the [Orca README](https://github.com/stablyai/orca) for current instructions.",
+    "faq_json": [
+      {
+        "q": "Which coding-agent accounts does the README preview mention?",
+        "a": "It mentions Claude and Codex accounts, usage, and rate-limit resets."
+      },
+      {
+        "q": "What kinds of files can Orca preview?",
+        "a": "The README preview lists Markdown, images, PDFs, and repository docs."
+      },
+      {
+        "q": "Where can I find setup instructions?",
+        "a": "Setup steps were not included in the available summary. Check the README at https://github.com/stablyai/orca."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:21:21.609659+00:00"
+  },
+  "PSRben/VisionHOPE": {
+    "body_markdown": "## What it is\n\nVisionHOPE is a PyTorch computer-vision project for developers exploring visual backbones. It describes itself as the official implementation of **“Visual Backbones as Self-Modifying Learning Systems.”** The README preview says the approach builds on the self-referential construction in *Nested Learning: The Illusion of Deep Learning Architectures* and lets a model’s memory and learning evolve together while processing an image.\n\n## Described capabilities\n\nThe preview describes an operator that combines coupled memories; it does not provide further detail about those memories. Pretrained checkpoints for ImageNet-1K, COCO, and ADE20K are listed as available through GitHub Releases, Hugging Face, and Baidu Netdisk. The preview also says the VisionHOPE preprint is available on arXiv.\n\n## Getting started\n\nConsult the project’s README for setup and usage instructions. The supplied information does not include installation steps or example commands.",
+    "faq_json": [
+      {
+        "q": "What is VisionHOPE?",
+        "a": "It is a PyTorch implementation of “Visual Backbones as Self-Modifying Learning Systems,” a computer-vision project whose described approach evolves a model’s memory and learning together while processing an image."
+      },
+      {
+        "q": "Where are pretrained checkpoints available?",
+        "a": "The README preview lists GitHub Releases, Hugging Face, and Baidu Netdisk for checkpoints covering ImageNet-1K, COCO, and ADE20K. It gives Baidu Netdisk access code 8866."
+      },
+      {
+        "q": "Where can I find setup instructions?",
+        "a": "Check the project README. Setup commands were not included in the supplied information."
+      },
+      {
+        "q": "Is there a paper about VisionHOPE?",
+        "a": "The README preview says the VisionHOPE preprint is available on arXiv."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:21:29.833782+00:00"
+  },
+  "obra/superpowers": {
+    "body_markdown": "## What it is\n\n[obra/superpowers](https://github.com/obra/superpowers) is an agentic skills framework and software development methodology for coding agents. The project description says it is a framework and methodology “that works.” The README preview describes it as a complete methodology built on composable skills and initial instructions intended to ensure an agent uses those skills.\n\n## Capabilities explicitly described\n\nThe supplied materials identify composable skills and initial agent instructions as the foundation. They also point to a Codex app flow: register the marketplace, find Superpowers in the Plugins sidebar under Coding, select the plus button and follow the prompts. The preview also mentions opening the plugin search interface, but does not explain what to do there.\n\n## Getting started\n\nFor the full setup sequence, consult the [project README](https://github.com/obra/superpowers#readme). The available preview gives only a brief outline of the Codex app steps, so it does not establish every detail needed to complete setup.",
+    "faq_json": [
+      {
+        "q": "What is Superpowers?",
+        "a": "It is an agentic skills framework and software development methodology for coding agents."
+      },
+      {
+        "q": "What is it built from?",
+        "a": "The README preview describes composable skills and initial instructions intended to make an agent use them."
+      },
+      {
+        "q": "How does the provided Codex setup outline begin?",
+        "a": "It says to register the marketplace, then find Superpowers in the Plugins sidebar under Coding. Consult the README for the full setup sequence."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:21:39.961607+00:00"
+  },
+  "odysseus-dev/odysseus": {
+    "body_markdown": "## What it is\nOdysseus is a self-hosted AI workspace for chat, agents, research, and everyday information work. The project description calls it a self-hosted AI workspace; the README preview also lists documents, email, notes, calendar, and local model workflows. The supplied language field identifies Python.\n\n## Capabilities\nThe README preview lists chat and agents with local or API models, tools, MCP, files, shell, skills, and memory. Its Cookbook covers hardware-aware model recommendations, downloads, and serving. Deep Research is described as multi-step web research with source reading and report generation; Compare offers blind side-by-side model testing and synthesis. Documents include a writing-first editor with AI edits, suggestions, and Markdown, HTML, CSV, and syntax highlighting.\n\n## Getting started\nThe supplied README preview does not include setup steps. See the project README for getting-started instructions: https://github.com/odysseus-dev/odysseus",
+    "faq_json": [
+      {
+        "q": "Which model sources does Odysseus list?",
+        "a": "The README preview lists both local and API models for chat and agents."
+      },
+      {
+        "q": "What does the Documents area include?",
+        "a": "The preview describes a writing-first editor with AI edits, suggestions, and Markdown, HTML, CSV, and syntax highlighting."
+      },
+      {
+        "q": "Where can I find setup instructions?",
+        "a": "Setup steps were not included in the supplied README preview. Consult the project README at https://github.com/odysseus-dev/odysseus."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:21:51.492867+00:00"
+  },
+  "heygen-com/hyperframes": {
+    "body_markdown": "## What it is\nHyperframes is an HTML-based video-rendering project. Its description puts the pitch plainly: “Write HTML. Render video. Built for agents.” The supplied language field is TypeScript.\n\n## Capabilities described\nThe README preview lists product launch videos and feature announcements, PR walkthroughs with animated code diffs, narration, and captions, plus data visualizations, chart races, and map animations. It also names social videos with kinetic captions, overlays, and music, as well as docs-to-video, PDF-to-video, and site-tour explainers. These are the project’s stated use cases; the supplied preview does not explain how each workflow works.\n\n## Getting started\nThe supplied information does not include setup steps. Check the project README for current getting-started instructions: https://github.com/heygen-com/hyperframes.",
+    "faq_json": [
+      {
+        "q": "What language is Hyperframes written in?",
+        "a": "The supplied language field lists TypeScript."
+      },
+      {
+        "q": "What kinds of videos does it describe?",
+        "a": "The README preview lists launch and feature videos, animated PR walkthroughs, data visualizations, social videos, and explainers made from docs, PDFs, or websites."
+      },
+      {
+        "q": "Where can I find setup instructions?",
+        "a": "Setup steps were not included in the supplied information. Check the README at https://github.com/heygen-com/hyperframes."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:21:59.765006+00:00"
+  },
+  "edenfunf/reelmimic": {
+    "body_markdown": "## What it is\nReelMimic is a project for creating a new video in the style of a reference video. The project description says an AI crew using Claude Code or Codex plans, builds, and reviews the video with you.\n\n## Capabilities\nThe README summary says ReelMimic breaks down a reference by shot count, shot lengths, BPM, transitions, colors, framing, and camera moves. It shows a plan—including a storyboard, characters, assets, and style frames—for discussion and approval. The summary also describes up to six AI agents working on different parts, with each finished shot sent to another agent for review. Fixes come with before-and-after screenshots, which the reviewer checks.\n\n## Getting started\nSetup steps were not included in the supplied information. See the [ReelMimic README](https://github.com/edenfunf/reelmimic) for getting-started instructions.",
+    "faq_json": [
+      {
+        "q": "Which AI tools are named?",
+        "a": "The project description names Claude Code and Codex."
+      },
+      {
+        "q": "What aspects of a reference video does ReelMimic break down?",
+        "a": "The README summary lists shot count, shot lengths, BPM, transitions, colors, framing, and camera moves."
+      },
+      {
+        "q": "How do I get started?",
+        "a": "Setup steps were not supplied here. Consult the project README: https://github.com/edenfunf/reelmimic."
+      },
+      {
+        "q": "What license is listed?",
+        "a": "The supplied metadata lists the MIT license."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:22:07.445722+00:00"
+  },
+  "tt-a1i/archify": {
+    "body_markdown": "## What it is\nArchify is an agent skill for creating architecture and process diagrams. It is aimed at developers who want to make systems and workflows easier to understand, plan, or share.\n\n## Capabilities\nThe project describes Archify as producing verifiable diagrams in self-contained HTML, with motion and crisp export. Its listed diagram types include architecture, workflow, sequence, data-flow, and lifecycle diagrams. The README preview also describes interactive visuals and layout choices that emphasize hierarchy, spacing, routes, and key points.\n\n## Getting started\nSetup steps were not included in the supplied information. Consult the [repository README](https://github.com/tt-a1i/archify) for instructions.",
+    "faq_json": [
+      {
+        "q": "What kinds of diagrams does Archify cover?",
+        "a": "Architecture, workflow, sequence, data-flow, and lifecycle diagrams."
+      },
+      {
+        "q": "What output does Archify produce?",
+        "a": "The project description says it creates self-contained HTML with motion and crisp export."
+      },
+      {
+        "q": "Where can I find setup instructions?",
+        "a": "Setup steps were not supplied here; consult the repository README: https://github.com/tt-a1i/archify."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:22:23.868603+00:00"
+  },
+  "google/mantis": {
+    "body_markdown": "## What it is\nMantis is a Python project described as a modular, stack-agnostic toolkit for AI coding agents. Its project description says the agents can autonomously find, reproduce, and patch vulnerabilities in software. The focus is on security work that can apply across different technology stacks.\n\n## Capabilities\nThe README preview describes reviewing a codebase’s history to identify past vulnerabilities that should not be repeated. It also mentions building a semantic index or code summaries to make code easier to work with. These are the specific workflows surfaced in the available preview; it does not provide further detail about how they operate.\n\n## Getting started\nThe available README preview does not provide a complete set of setup steps. Consult the [Mantis README](https://github.com/google/mantis) for current getting-started guidance.",
+    "faq_json": [
+      {
+        "q": "What is Mantis for?",
+        "a": "The project description presents it as a toolkit for AI coding agents to find, reproduce, and patch vulnerabilities."
+      },
+      {
+        "q": "What security workflows does the README preview mention?",
+        "a": "Reviewing code history for past vulnerabilities and building a semantic index or code summaries."
+      },
+      {
+        "q": "Where can I find setup instructions?",
+        "a": "Consult the README at https://github.com/google/mantis; the supplied preview does not give a complete set of setup steps."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:22:33.828107+00:00"
+  },
+  "Mak5er/AirCard": {
+    "body_markdown": "## What it is\nAirCard is an Apple Wallet card skinner for iOS 18 and later. It describes itself as requiring no jailbreak; the supplied project details identify Swift as its language.\n\n## Capabilities\nAirCard says it can apply custom artwork, textures, or bank logos to Apple Pay and Wallet cards, and apply `.passthm` keypad artwork to the iOS lock screen. Its listed tools also include a passcode-theme creator that slices a wallpaper into a seamless poster or lets you build key by key, plus interactive framing to pan and zoom artwork inside keypad buttons.\n\n## Getting started\nSetup instructions weren’t included in the supplied project details. Consult the [AirCard README](https://github.com/Mak5er/AirCard) for getting-started guidance.",
+    "faq_json": [
+      {
+        "q": "What can AirCard customize?",
+        "a": "It lists custom artwork, textures, or bank logos for Apple Pay and Wallet cards, along with keypad themes for the lock screen."
+      },
+      {
+        "q": "Which iOS versions does AirCard target?",
+        "a": "The project describes AirCard as targeting iOS 18 and later."
+      },
+      {
+        "q": "How do I get started?",
+        "a": "Setup steps were not supplied. Consult the AirCard README at https://github.com/Mak5er/AirCard."
+      },
+      {
+        "q": "What language is AirCard written in?",
+        "a": "The supplied metadata lists Swift."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:22:41.376874+00:00"
+  },
+  "vectorize-io/hindsight": {
+    "body_markdown": "## What it is\nHindsight is a Python project for agent memory, described as “Agent Memory That Learns.” Developers exploring memory for AI agents can use its documentation to understand the project’s concepts and integration options.\n\n## Capabilities described\nThe README summary covers memory types and the retain, recall, and reflect concepts, alongside observations, mental models, knowledge pages, and banks. It also lists an LLM wrapper, integrations, coding agents, and MCP. The project’s materials include a cookbook, benchmarks, a paper, production guidance, and Hindsight Cloud.\n\n## Getting started\nSetup steps are not included in the supplied information. Check the project README for instructions on getting started and details about the integrations.",
+    "faq_json": [
+      {
+        "q": "What language is Hindsight written in?",
+        "a": "The supplied metadata lists Python."
+      },
+      {
+        "q": "What memory concepts does the project describe?",
+        "a": "The README summary lists memory types, retain, recall, reflect, observations, mental models, knowledge pages, and banks."
+      },
+      {
+        "q": "Where can I find setup instructions?",
+        "a": "Setup steps were not supplied here. Check the project README."
+      }
+    ],
+    "model": "gpt-6-luna",
+    "generated_at": "2026-10-01T22:22:46.504126+00:00"
+  }
+}

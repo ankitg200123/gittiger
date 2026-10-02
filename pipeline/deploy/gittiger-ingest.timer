@@ -1,0 +1,14 @@
+[Unit]
+Description=GitTiger hourly ingest timer
+Requires=gittiger-ingest.service
+
+[Timer]
+# Fire 20 minutes past the hour — GH Archive publishes the previous hour with
+# a short delay, and this avoids racing the top of the hour with everyone else.
+OnCalendar=*:20:00
+Persistent=true
+AccuracySec=1min
+Unit=gittiger-ingest.service
+
+[Install]
+WantedBy=timers.target

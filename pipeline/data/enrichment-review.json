@@ -1,0 +1,10 @@
+{
+  "Niko1221/Strata": {
+    "reason": "smoke_test_output_not_source_audited",
+    "recorded_at": "2026-10-01T21:54:49.190420+00:00"
+  },
+  "ifixai-ai/iFixAi": {
+    "reason": "smoke_test_output_not_source_audited",
+    "recorded_at": "2026-10-01T21:54:49.190420+00:00"
+  }
+}

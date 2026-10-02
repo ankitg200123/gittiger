@@ -1,0 +1,25 @@
+# GitTiger — systemd timers
+# Install on the host:
+#   sudo cp gittiger-timers/*.timer gittiger-timers/*.service /etc/systemd/system/
+#   sudo systemctl enable --now gittiger-ingest.timer gittiger-daily.timer
+#
+# Timers survive reboots and replace crontab. Each fires its oneshot service.
+
+[Unit]
+Description=GitTiger hourly ingest (GH Archive)
+Documentation=https://gittiger.com/methodology
+
+[Service]
+Type=oneshot
+User=gittiger
+WorkingDirectory=/opt/gittiger/pipeline
+Environment=PYTHONUNBUFFERED=1
+# GITHUB_TOKEN is stored in an chmod-600 EnvironmentFile, never in the unit.
+EnvironmentFile=/etc/gittiger/secrets.env
+ExecStart=/usr/bin/python3 /opt/gittiger/pipeline/ingest.py
+# A single hour must not run past the next tick.
+TimeoutStartSec=300
+
+# A transient failure shouldn't mark the whole unit failed for the day.
+SuccessExitStatus=0
+Restart=no

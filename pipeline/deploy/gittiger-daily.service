@@ -1,0 +1,17 @@
+[Unit]
+Description=GitTiger daily scoring + enrichment DAG
+Documentation=https://gittiger.com/methodology
+
+[Service]
+Type=oneshot
+User=gittiger
+WorkingDirectory=/opt/gittiger/pipeline
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/etc/gittiger/secrets.env
+ExecStart=/usr/bin/python3 /opt/gittiger/pipeline/run_daily.py
+# The full DAG (24 ingest hours + score + metadata) is bounded well under this.
+TimeoutStartSec=3600
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
