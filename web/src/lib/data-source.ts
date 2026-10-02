@@ -14,7 +14,10 @@ import type { Repo } from "./types";
 import { REPOS } from "./mock-data";
 import { mosaicFor } from "./mosaic";
 
-const PIPELINE_DATA = path.join(process.cwd(), "..", "pipeline", "data");
+// Pipeline data dir. Overridable via env so the server build (which runs from
+// web/.next/standalone) still finds /opt/gittiger/pipeline/data.
+const PIPELINE_DATA = process.env.PIPELINE_DATA
+  ?? path.join(process.cwd(), "..", "pipeline", "data");
 
 type RankingRow = {
   repo: string;
