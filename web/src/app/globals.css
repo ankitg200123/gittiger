@@ -1,0 +1,335 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+  LOGIC MOSAIC TRENDS — "Liquid Glass Terminal" design system.
+  See design-system/logic-mosaic-trends/MASTER.md
+  Soft on the atmosphere, hard on the data.
+*/
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+
+  /* Mosaic accent system — one hue per topic, chrome stays monochrome */
+  --color-mosaic-violet: var(--mosaic-violet);
+  --color-mosaic-cyan: var(--mosaic-cyan);
+  --color-mosaic-green: var(--mosaic-green);
+  --color-mosaic-amber: var(--mosaic-amber);
+  --color-mosaic-rose: var(--mosaic-rose);
+  --color-mosaic-blue: var(--mosaic-blue);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* ─────────────────────────  TOKENS  ─────────────────────────
+   Dark-first. Base palette from ui-ux-pro-max "API Developer Portal". */
+
+:root {
+  --background: #020617;
+  --foreground: #f8fafc;
+  --surface-1: #0a0f1e;
+  --surface-2: #0e1223;
+
+  /* glass: translucent, never opaque */
+  --card: rgba(255, 255, 255, 0.05);
+  --card-solid: #0e1223;
+  --card-foreground: #f8fafc;
+
+  --popover: #0e1223;
+  --popover-foreground: #f8fafc;
+
+  --primary: #f8fafc;
+  --primary-foreground: #020617;
+  --secondary: #1a1e2f;
+  --secondary-foreground: #f8fafc;
+
+  --muted: #1a1e2f;
+  --muted-foreground: #94a3b8;
+
+  --accent: #7c5cff;
+  --accent-foreground: #ffffff;
+
+  --destructive: #ef4444;
+  --border: rgba(255, 255, 255, 0.10);
+  --input: rgba(255, 255, 255, 0.10);
+  --ring: #7c5cff;
+
+  --chart-1: #7c5cff;
+  --chart-2: #22d3ee;
+  --chart-3: #22c55e;
+  --chart-4: #f59e0b;
+  --chart-5: #fb7185;
+
+  /* Mosaic — per-topic hues */
+  --mosaic-violet: #7c5cff;
+  --mosaic-cyan: #22d3ee;
+  --mosaic-green: #22c55e;
+  --mosaic-amber: #f59e0b;
+  --mosaic-rose: #fb7185;
+  --mosaic-blue: #3b82f6;
+
+  --radius: 0.75rem;
+
+  --sidebar: rgba(2, 6, 23, 0.72);
+  --sidebar-foreground: #f8fafc;
+  --sidebar-primary: #7c5cff;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #1a1e2f;
+  --sidebar-accent-foreground: #f8fafc;
+  --sidebar-border: rgba(255, 255, 255, 0.10);
+  --sidebar-ring: #7c5cff;
+}
+
+.dark {
+  --background: #020617;
+  --foreground: #f8fafc;
+  --card: rgba(255, 255, 255, 0.05);
+  --card-solid: #0e1223;
+  --card-foreground: #f8fafc;
+  --popover: #0e1223;
+  --popover-foreground: #f8fafc;
+  --primary: #f8fafc;
+  --primary-foreground: #020617;
+  --secondary: #1a1e2f;
+  --secondary-foreground: #f8fafc;
+  --muted: #1a1e2f;
+  --muted-foreground: #94a3b8;
+  --accent: #7c5cff;
+  --accent-foreground: #ffffff;
+  --destructive: #ef4444;
+  --border: rgba(255, 255, 255, 0.10);
+  --input: rgba(255, 255, 255, 0.10);
+  --ring: #7c5cff;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    color-scheme: dark;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    /* Aurora mesh — fixed, behind everything, slow drift */
+    background-image:
+      radial-gradient(ellipse 70% 55% at 12% -5%, rgba(124, 92, 255, 0.16), transparent 60%),
+      radial-gradient(ellipse 60% 50% at 88% 8%, rgba(34, 211, 238, 0.11), transparent 60%),
+      radial-gradient(ellipse 80% 60% at 50% 108%, rgba(34, 197, 94, 0.07), transparent 60%);
+    background-attachment: fixed;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Every number in the product renders in mono. Strongest "designed" signal
+     on a data site. */
+  .tabular {
+    font-family: var(--font-mono), ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+  }
+
+  /* Muted mono labels: 12px uppercase, wide tracking */
+  .label-mono {
+    font-family: var(--font-mono), ui-monospace, monospace;
+    font-size: 11px;
+    line-height: 1;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--muted-foreground);
+  }
+
+  /* Hard 1px hairline — the "papercut" counterpoint to the glass */
+  .hairline {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.10);
+  }
+
+  /* Code blocks: hard-clipped corners, no blur, no softness */
+  .codecut {
+    background: #050a16;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 4px;
+    font-family: var(--font-mono), ui-monospace, monospace;
+  }
+
+  ::selection {
+    background: rgba(124, 92, 255, 0.32);
+    color: #ffffff;
+  }
+
+  /* Visible focus ring, never removed */
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* ── Glass — the canonical card ─────────────────────────── */
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 16px;
+    position: relative;
+  }
+
+  /* Light reflection edge — the detail that sells the glass */
+  .glass::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.22), transparent 55%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .glass-strong {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  /* Hover lift — transform only, never width/height */
+  .lift {
+    transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1),
+                border-color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+                background-color 200ms cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform;
+  }
+  .lift:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255, 255, 255, 0.18);
+  }
+
+  /* Topic chip — mosaic hue as a data signal, never decoration */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.25rem 0.5625rem;
+    border-radius: 9999px;
+    border: 1px solid color-mix(in oklab, var(--chip-color, var(--muted-foreground)) 32%, transparent);
+    background: color-mix(in oklab, var(--chip-color, var(--muted-foreground)) 10%, transparent);
+    color: color-mix(in oklab, var(--chip-color, var(--muted-foreground)) 88%, white);
+    font-size: 11.5px;
+    line-height: 1.2;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  /* Rank badge — mono, hard corner */
+  .rank {
+    font-family: var(--font-mono), ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    color: var(--muted-foreground);
+  }
+  .rank-top {
+    color: #020617;
+    background: var(--rank-color, #f59e0b);
+    border-color: transparent;
+  }
+
+  /* Aurora gradient text — hero headline ONLY, never on body copy */
+  .aurora-text {
+    background: linear-gradient(135deg, #f8fafc 0%, #f8fafc 55%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Sparkline container — reserve space, no CLS */
+  .spark {
+    display: block;
+    width: 100%;
+    height: 28px;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  /* Bento: intentionally uneven cells */
+  .bento-span-2 { grid-column: span 2 / span 2; }
+  .bento-row-2 { grid-row: span 2 / span 2; }
+
+  @media (max-width: 1023px) {
+    .bento-span-2, .bento-row-2 { grid-column: auto; grid-row: auto; }
+  }
+}
+
+/* ── Reduced motion is mandatory ────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

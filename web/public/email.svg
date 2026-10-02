@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="304" height="44" viewBox="0 0 304 44" fill="none">
+  <!--
+    GitTiger contact email. Served as an image so the address never appears in
+    the HTML source or DOM text. 2x scale for crisp rendering.
+  -->
+  <text
+    x="0"
+    y="28"
+    font-family="JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, monospace"
+    font-size="20"
+    font-weight="500"
+    letter-spacing="0.4"
+    fill="#ffffff"
+  >ankit@athelp.in</text>
+</svg>
